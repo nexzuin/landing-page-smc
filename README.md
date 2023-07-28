@@ -27,7 +27,12 @@ Adapun penambahan menu pada bagian berikut.
 
 # How to Show Website for Preview Your Code
 
-1. (adin) bantu koneksikan github dengan netlify (pakai default domain dari netflify aja) untuk sementara preview tampilannya
+1. (adin) bantu koneksikan github dengan netlify (pakai default domain dari netflify aja) untuk sementara preview tampilannya.
+
+Buatkan akun netlify dengan gmail SMC :
+
+email : hello.smartkreatif@gmail.com
+pass  : smartkreatifkeren
 
 2. ketika sudah fix baru koneksikan github dengan domain SMC (providernya ID Cloud Host)
 
