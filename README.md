@@ -34,5 +34,5 @@ Buatkan akun netlify dengan gmail SMC :
 email : hello.smartkreatif@gmail.com
 pass  : smartkreatifkeren
 
-2. ketika sudah fix baru koneksikan github dengan domain SMC (providernya ID Cloud Host)
+2. ketika sudah fix websitenya akan rilis kemudian koneksikan netlify DNS dengan domain SMC ( DNS pada ID Cloud Host )
 
