@@ -25,5 +25,9 @@ Adapun penambahan menu pada bagian berikut.
 
 - Pulling Changes: To keep your local repository up to date with the latest changes from the remote repository, use git pull or sync your repository with GitHub Desktop.
 
+# How to Show Website for Preview Your Code
 
+1. (adin) bantu koneksikan github dengan netlify (pakai default domain dari netflify aja) untuk sementara preview tampilannya
+
+2. ketika sudah fix baru koneksikan github dengan domain SMC (providernya ID Cloud Host)
 
