@@ -100,7 +100,7 @@
 @media screen and (max-width: 800px) {
 
   .swiper-content {
-    margin: 30px 10px;
+    margin: 30px auto;
   }
 
   .swiper-title {
