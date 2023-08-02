@@ -8,6 +8,7 @@
   background-color: #08335B;
   gap: 6rem;
   padding: 0 2rem;
+  border-radius: 3px;
 }
 
 .swiper-shrink {
