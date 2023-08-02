@@ -18,12 +18,14 @@
     ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
-    
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+
 
     <!--Script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
+
 
 
     <!-- favicons
@@ -333,7 +335,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
 
 
                     <!-- end 03 - tab our works -->
@@ -401,6 +403,21 @@
 
         </div> <!-- end tab content -->
 
+        <!-- sliding-carousel -->
+
+        <div class="swiper-container">
+            <!-- SECTION TITLE -->
+            <div class="swiper-header">
+                <h1 class="swiper-title">Our Works</h1>
+                <h3 class="swiper-subtitle">A Selection of Signature Projects</h3>
+            </div>
+            <!-- SLIDER -->
+            <div id="carousel" class="swiper">
+                <div id="swiper-content" class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
         <!-- footer  -->
         <footer>
             <div class="ss-copyright">
@@ -429,6 +446,42 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const slides = [
+            {
+                title: "Company Profile",
+                subtitle: "Warung Pintar",
+                image: "images/slider/image1.png"
+            },
+            {
+                title: "Enterprise Resource Program",
+                subtitle: "Corteva Agriscience",
+                image: "images/slider/image2.png"
+            },
+            {
+                title: "360’ Virtual Show Website",
+                subtitle: "Podomoro Park Bandung",
+                image: "images/slider/image3.png"
+            },
+            {
+                title: "Company Profile",
+                subtitle: "Warung Pintar",
+                image: "images/slider/image1.png"
+            },
+            {
+                title: "Enterprise Resource Program",
+                subtitle: "Corteva Agriscience",
+                image: "images/slider/image2.png"
+            },
+            {
+                title: "360’ Virtual Show Website",
+                subtitle: "Podomoro Park Bandung",
+                image: "images/slider/image3.png"
+            },
+        ]
+    </script>
+    <script src="js/slider-carousel.js"></script>
 
 </body>
 
