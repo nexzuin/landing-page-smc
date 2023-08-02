@@ -17,13 +17,13 @@ var swiper = new Swiper("#carousel", {
   },
   breakpoints: {
     480: {
-      slidesPerView: 1,
+      slidesPerView: 1, // 1 slides
     },
     600: {
-      slidesPerView: 2,
+      slidesPerView: slides.length > 1 ? 2 : 1, // 2 slides
     },
     800: {
-      slidesPerView: 3,
+      slidesPerView: slides.length > 2 ? 3 : (slides.length > 1 ? 2 : 1),  // 3 slides
     },
   }
 });
