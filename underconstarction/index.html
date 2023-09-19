@@ -35,7 +35,7 @@
 
 </head>
 
-<body id="top" class="ss-preload theme-static">
+<body id="top" class="ss-preload theme-static" style="background-color: white;">
 
 
     <!-- preloader
@@ -59,7 +59,7 @@
         <header class="s-intro__header">
             <div class="s-intro__logo">
                 <a class="logo" href="./">
-                    <img src="images/SM - Logo.png" alt="Homepage">
+                    <img src="images/logo-smc1-transparan-white.png" alt="Homepage" style="opacity: .8;">
                 </a>
             </div>
         </header> <!-- s-intro__header -->
@@ -175,7 +175,7 @@
                 </h1>
 
                 <nav class="tab-nav">
-                    <ul class="tab-nav__list">
+                    <ul class="tab-nav__list" style="background-color: white;">
                         <li class="active" data-id="tab-about">
                             <a href="#tab-about">
                                 <span>About</span>
@@ -379,8 +379,6 @@
                         </div>
                     </div>
 
-
-
                     <!-- end 03 - tab our works -->
 
                     <!-- 03 - tab contact -->
@@ -446,7 +444,24 @@
 
         </div> <!-- end tab content -->
 
-        <!-- sliding-carousel -->
+        <!-- out clients -->
+        <div class="row" style="margin-top: 30px;overflow: hidden;">
+            <div class="column">
+                <h2 class="text-center">Our Clients</h2>
+
+                <div class="row">
+                    <!-- Slider main container -->
+                    <div id="our_clients" class="swiper">
+                        <div id="our_clients_content" class="swiper-wrapper"></div>
+                        <!-- <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div> -->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
 
         <!-- footer  -->
         <footer>
@@ -481,8 +496,20 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="vendor/swiper/swiper-bundle.min.js"></script>
-    <script>
-        const slides = [
+    <script src="js/slider-carousel.js"></script>
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/64f016ffa91e863a5c10c74d/1h94tjmpn';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+
+        // OUR WORKS
+        ourWorks([
             {
                 title: "ERP",
                 subtitle: "Corteva Agriscience",
@@ -513,19 +540,80 @@
                 subtitle: "Angel Bull Indonesia",
                 image: "images/slider/Angel-bull.png"
             },
-        ]
-    </script>
-    <script src="js/slider-carousel.js"></script>
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/64f016ffa91e863a5c10c74d/1h94tjmpn';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
+        ])
+
+        // OUR CLIENTS
+        ourClients([
+            {
+                title: "Client 1",
+                image: "images/clients/AngelBull-logo.png"
+            },
+            {
+                title: "Client 2",
+                image: "images/clients/download.png"
+            },
+            {
+                title: "Client 3",
+                image: "images/clients/image.png"
+            },
+            {
+                title: "Client 4",
+                image: "images/clients/image1.png"
+            },
+            {
+                title: "Client 5",
+                image: "images/clients/image2.png"
+            },
+            {
+                title: "Client 6",
+                image: "images/clients/image3.png"
+            },
+            {
+                title: "Client 7",
+                image: "images/clients/image4.png"
+            },
+            {
+                title: "Client 8",
+                image: "images/clients/logo gka.jpg"
+            },
+            {
+                title: "Client 9",
+                image: "images/clients/logo kartika.jpg"
+            },
+            {
+                title: "Client 10",
+                image: "images/clients/LOGO ROYAL GADING.pdf.png"
+            },
+            {
+                title: "Client 11",
+                image: "images/clients/logo Sahabat elektronik.jpg"
+            },
+            {
+                title: "Client 12",
+                image: "images/clients/Logo Warung Pintar.png"
+            },
+            {
+                title: "Client 13",
+                image: "images/clients/logo-digitaldesa.png"
+            },
+            {
+                title: "Client 14",
+                image: "images/clients/LSA CURVED CHROME LOGO.png"
+            },
+            {
+                title: "Client 15",
+                image: "images/clients/MBM NEW LOGO - BLACK.png"
+            },
+            {
+                title: "Client 16",
+                image: "images/clients/Shooneo records logo.png"
+            },
+            {
+                title: "Client 17",
+                image: "images/clients/Untitled design-min.png"
+            },
+        ])
+
     </script>
 </body>
 
