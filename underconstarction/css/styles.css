@@ -2836,7 +2836,7 @@
   * ------------------------------------------------------------------- */
  .s-intro {
      --header-height     : 8.8rem;
-     --logo-width        : 130px;
+     --logo-width        : 100px;
      --text-display-size : 11.2rem;
      --text-multiplier   : 1;
      z-index             : 3;
