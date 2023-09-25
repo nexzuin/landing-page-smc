@@ -63,13 +63,13 @@ function ourClients(slides = []) {
 
   next.style = `
     position: absolute;
-    left: 0;
+    left: 20px;
     top: 40%;
     z-index: 1;
   `
   prev.style = `
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 40%;
     z-index: 1;
   `
